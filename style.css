@@ -1,0 +1,589 @@
+/*#bb {
+    font-family: 'Times New Roman', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  #042400;
+    color:#074700;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container { 
+    padding: 20px;
+    padding-left: 7%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.box {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    padding: 1%;
+    border-radius: 50px;
+    background-color:  #8df57d;
+}
+
+#home {
+    width: 150%;
+    height: 325px;
+    padding-left: 3%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pic img {
+    border-radius: 400%;
+    height: 300px;
+    width: 250px;
+}
+
+#head {
+    background-color: #8df57d;
+    width: 700px;
+    height: 50px;
+    padding: 2%;
+    font-style: Bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 50px;
+    border-color:#074700;
+    border-style: solid;
+    border-width: 7px;
+    width: 600px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    height: 15px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#button-container button {
+    border-radius: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #074700;
+    background-color: #8df57d;
+    padding: 1%;
+    margin: 10px;
+    width: 150px;
+    font-size: 20px;
+    color: #074700;
+}
+
+#button-container button:hover {
+    background-color:#074700 ;
+    color: #1e1e1e;
+}
+
+#button-container button:focus {
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pdf {
+    background-color: #074700;
+    border-width: 10px;
+    border-color:#074700;
+    border-style: solid;
+    padding: 4%;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#downloadbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#downloadbutton button {
+    border-radius: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #074700;
+    background-color:#8df57d;
+    padding: 1%;
+    margin: 10px;
+    width: 250px;
+    font-size: 20px;
+    height: 70px;
+    color: #074700;
+}
+
+#downloadbutton button:hover {
+    background-color: #074700;
+    color: #1e1e1e;
+}
+
+.container2 {
+    padding: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#p {
+    border-width: 5px;
+    border-color:#074700;
+    border-style: solid;
+    width: 350px;
+    padding: 1%;
+    border-radius: 50px;
+    background-color: #8df57d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-style: Bold;
+
+}
+.container2 {
+    padding: 4%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px;
+}
+
+#p1, #p2, #p3 {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    padding: 3%;
+    border-radius: 50px;
+    background-color:  #8df57d;
+    color: #074700;
+    width: 100%; 
+    max-width: 800px; 
+}
+
+#homebutton {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+#homebutton button {
+    border-radius: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color:#074700;
+    background-color: #8df57d;
+    padding: 10%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    margin: 20px auto;
+    margin-top: 0px;
+    color: #074700;
+}
+
+#homebutton button:hover {
+    background-color:#074700;
+    color: #1e1e1e;
+}
+
+#c {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    width: 700px;
+    height: 70px;
+    padding: 2%;
+    border-radius: 50px;
+    background-color:#8df57d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    font-style: Bold;
+    color: #074700;
+}
+
+#contact {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    border-radius: 100px;
+    width: 400px;
+    height: 300px;
+    padding: 4%;
+    padding-left: 60px;
+    background-color:#8df57d;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #074700;
+    margin-left: 550px;
+}
+
+#homebutton-c {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+#homebutton-c button {
+    border-radius: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #074700;
+    background-color:#8df57d;
+    padding: 10%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    margin: 20px auto;
+    margin-top: 0px;
+    color: #074700;
+}
+
+#homebutton-c button:hover {
+    background-color:#074700;
+    color: #1e1e1e;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#bb {
+    font-family: 'Times New Roman', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #042400;
+    color:#074700;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #8df57d;
+    padding: 10px 20px;
+    border-bottom: 2px solid #074700;
+    border-radius: 500px 10px -10px;
+    margin: 20px auto;
+    max-width: 1700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#head {
+    display: flex;
+    align-items: center;
+}
+
+#head img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+#head h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#head p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+    padding-left: 7%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.box {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    padding: 1%;
+    border-radius: 50px;
+    background-color: #8df57d;
+}
+
+#home {
+    width: 150%;
+    height: 325px;
+    padding-left: 3%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pic img {
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#button-container button {
+    border-radius: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #074700;
+    background-color: #8df57d;
+    padding: 1%;
+    margin: 10px;
+    width: 150px;
+    font-size: 20px;
+    color: #074700;
+}
+
+#button-container button:hover {
+    background-color: #074700;
+    color: #1e1e1e;
+}
+
+#button-container button:focus {
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pdf {
+    background-color: #074700;
+    border-width: 10px;
+    border-color: #074700;
+    border-style: solid;
+    padding: 4%;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#downloadbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#downloadbutton button {
+    border-radius: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #074700;
+    background-color: #8df57d;
+    padding: 1%;
+    margin: 10px;
+    width: 250px;
+    font-size: 20px;
+    height: 70px;
+    color: #074700;
+}
+
+#downloadbutton button:hover {
+    background-color: #074700;
+    color: #1e1e1e;
+}
+
+.container2 {
+    padding: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#p {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    width: 350px;
+    padding: 1%;
+    border-radius: 50px;
+    background-color: #8df57d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-style: Bold;
+}
+
+.container2 {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#p1, #p2, #p3 {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    padding: 3%;
+    border-radius: 50px;
+    background-color: #8df57d;
+    color: #074700;
+    width: 100%;
+    max-width: 800px;
+}
+
+#homebutton {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+#homebutton button {
+    border-radius: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #074700;
+    background-color: #8df57d;
+    padding: 10%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    margin-top: 0px;
+    color: #074700;
+}
+
+#homebutton button:hover {
+    background-color: #074700;
+    color: #1e1e1e;
+}
+
+#c {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    width: 700px;
+    height: 70px;
+    padding: 2%;
+    border-radius: 50px;
+    background-color: #8df57d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    font-style: Bold;
+    color: #074700;
+}
+
+#contact {
+    border-width: 5px;
+    border-color: #074700;
+    border-style: solid;
+    border-radius: 100px;
+    width: 400px;
+    height: 300px;
+    padding: 4%;
+    padding-left: 60px;
+    background-color: #8df57d;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #074700;
+    margin-left: 550px;
+}
+
+#homebutton-c {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+#homebutton-c button {
+    border-radius: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #074700;
+    background-color: #8df57d;
+    padding: 10%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    margin-top: 0px;
+    color: #074700;
+}
+
+#homebutton-c button:hover {
+    background-color: #074700;
+    color: #1e1e1e;
+}
